@@ -1,0 +1,36 @@
+<div>
+  <h3>
+    Codereverb
+    <small>
+      <a href="https://github.com/swimlane/ngx-datatable/blob/master/demo/basic/filter.component.ts" target="_blank">
+        Source
+      </a>
+    </small>
+  </h3>
+  <!-- <input
+    type='text'
+    style='padding:8px;margin:15px auto;width:30%;'
+    placeholder='Type to filter the name column...'
+    (keyup)='updateFilter($event)'
+  /> -->
+  <ngx-datatable
+  #table
+  class="material"
+  [rows]="rows"
+  [columns]="columns"
+  [columnMode]="'force'"
+  [headerHeight]="50"
+  [footerHeight]="50"
+  [rowHeight]="'auto'"
+
+  [externalPaging]="true"
+  [count]="count"
+  [offset]="offset"
+  (page)="setPage($event)"
+  [limit]="3"
+  
+  [externalSorting]="true"
+  [loadingIndicator]="loading"
+  (sort)="onSort($event)">
+  </ngx-datatable>
+</div>
