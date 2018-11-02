@@ -1,3 +1,7 @@
+ngx-datatable is an Angular component for presenting large and complex data. It has all the features you would expect from any other table but in a light package with no external dependencies. The table was designed to be extremely flexible and light; it doesn't make any assumptions about your data or how you: filter, sort or page it.
+
+It was built for modern browsers using TypeScript, CSS3 and HTML5 and Angular >=4.0.0. This is the sister project of the 
+
 # NgxDatatable
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
